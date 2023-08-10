@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <p>Let us know how we can improve FreeCodeCamp</p>
+    <form action="">
+    <div class="Form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+    </div>
+    <br>
+    <div class="Form">
+        <label for="emailid">Email</label>
+        <input type="email id" id="emailid" placeholder="Enter your email">
+    </div>
+    <br>
+    <div class="Form">
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="Age">
+    </div>
+    <br>
+    <div class="Form">
+        <label for="role"> Which option best describes your current role?</label>
+        <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <br>
+    <div class="Form">
+        <label for="label">How Body is that you would recommend FreeCodeCamp to a friend?</label>
+        <input type="radio" id="label">Definitely
+        <input type="radio" id="label">May Be
+        <input type="radio" id="label">Not Sure
+    </div>
+    <br>
+    <div class="Form">
+        <label for="role"> What do you like most in FCC</label>
+        <select name="role" id="role">
+            <option value="select">Select an option</option>
+        </select>
+    </div>
+    <br>
+    <div class="Form">
+        <label>Things that should be improved in the future. 
+            <br>Check all that apply:</label>
+            <br>
+        <input type="checkbox" name="input" id="input">Front-end Projects
+        <br>
+        <input type="checkbox" name="input" id="input">Back-end Projects
+        <br>
+        <input type="checkbox" name="input" id="input">Data Visualization
+        <br>
+        <input type="checkbox" name="label" id="label">Challenges
+        <br>
+        <input type="checkbox" name="label" id="label">Open Source Community
+        <br>
+        <input type="checkbox" name="label" id="label">Gitter Help Rooms
+        <br>
+        <input type="checkbox" name="label" id="label">Videos
+        <br>
+        <input type="checkbox" name="label" id="label">City Meetups
+        <br>
+        <input type="checkbox" name="label" id="label">Wiki
+        <br>
+        <input type="checkbox" name="label" id="label">Forum
+        <br>
+        <input type="checkbox" name="label" id="label">Additional Courses
+    </div>
+    <br>
+    <div class="Form">
+        <label for="comment">Any Comments or Suggestions?</label>
+        <textarea name="comment" id="comment" placeholder="Enter Your Comment Here"></textarea>
+    </div>
+    <br>
+    <div class="button">
+        <button type="submit" id="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
