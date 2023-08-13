@@ -1,0 +1,23 @@
+input:checked{
+    prop ; value;
+}
+
+div:empty{
+    prop ; value;
+}
+
+a:hover{
+    prop ; value;
+}
+
+a:visited{
+    prop ; value;
+}
+
+p:first child{
+    prop ; value;
+}
+
+p:last child{
+    prop ; value;
+}
