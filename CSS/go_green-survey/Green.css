@@ -1,0 +1,141 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.wallpapertip.com/wmimgs/166-1668509_summer-forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 40px;
+}
+
+h1,p{
+    color: white;
+    line-height: 10px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.sub-title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#logo{
+    height: 70px;
+    width: 75px;
+}
+.formcard{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(2,27,5,0.73), rgba(0,8,1,0.73));
+
+    color: rgb(1,2,0);
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    width: 60%;
+} 
+
+#radios, #checkboxes{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: white;
+}
+label,#suggestions{
+    font-size: 23px;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+[type="text"], [type="email"], [type="number"], textarea, select{
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+[type="text"], [type="email"], [type="number"], select{
+    position: relative;
+    left: 1.5%;
+    width: 95%;
+}
+button#submit{
+    position: relative;
+    left: 10%;
+    background-color: rgb(5,58,5);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    border-color: rgb(5,58,5);
+}
+
+[type="submit"]:hover {
+    background-color: rgb(5, 71, 5);
+    border-color: rgb(5, 71, 5);
+    cursor: pointer;
+  }
+  
+  textarea {
+    text-align: left;
+    height: 300px;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 675px) {
+    h1,
+    p {
+      line-height: 30px;
+      text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    #logo {
+      height: 50px;
+      width: 55px;
+    }
+  
+    label,
+    #suggestions {
+      font-size: 19px;
+    }
+  
+    [type="text"],
+    [type="email"],
+    [type="number"],
+    textarea,
+    select {
+      font-size: 13px;
+    }
+    [type="submit"] {
+      position: relative;
+      left: 10%;
+  
+      background-color: rgb(5, 58, 5);
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+  
+      width: 80%;
+      height: 40px;
+      outline: none;
+      border-radius: 5px;
+      border-color: rgb(5, 58, 5);
+    }
+    .formCard {
+      width:80%;
+    }
+  }
