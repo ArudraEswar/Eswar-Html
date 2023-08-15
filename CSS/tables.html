@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+
+    <style>
+        table,th,td{
+            border: 3px solid black;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th{
+            padding: 10px;
+            color: darkgreen;
+            background-color: aquamarine;
+        }
+        td{
+            text-align: center;
+            color: rgb(58, 55, 25);
+        }
+        .name-in-td{
+            text-transform: lowercase;
+            font-family: cursive;
+        }
+        .bg-change{
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+        <th>SNo</th>
+        <th>Name</th>
+        <th>Ph No</th>
+        <th>ID</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td class="name-in-td">Eswar</td>
+            <td>12345</td>
+            <td>ESWAR_ARU</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td class="name-in-td">Eswark</td>
+            <td>123456</td>
+            <td>ESWAR_ARUD</td>
+        </tr>
+
+        <tr class="bg-change">
+            <td>3</td>
+            <td >Eswar</td>
+            <td>12345</td>
+            <td>ESWAR_ARU</td>
+        </tr>
+
+        <tr class="bg-change">
+            <td>4</td>
+            <td>Eswark</td>
+            <td>123456</td>
+            <td>ESWAR_ARUD</td>
+        </tr>
+    </table>
+</body>
+</html>
