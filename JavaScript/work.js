@@ -20,3 +20,4 @@ console.log(newNumber);
 
 const name3 = "Robin Singh";
 console.log(name3.slice(0,4));
+
