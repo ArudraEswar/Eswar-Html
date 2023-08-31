@@ -16,29 +16,29 @@ while(b>0)
 
 //Do While
 
-let a = 0;
+let c = 0;
 do{
-   console.log("a="+a);
-   a++;
-} while(a<15);
+   console.log("c="+c);
+   c++;
+} while(c<15);
 
-for loop
+// for loop
 
-for(a=1; a<=20; a++){
-    console.log("page no is"+" "+a);
+for(d=1; d<=20; d++){
+    console.log("page no is"+" "+d);
 }
 
 // jump statements
 
-for(a=1; a<=20; a++){
+for(e=1; e<=20; e++){
     
-    if(a==5){
+    if(e==5){
         console.log("continue statement is occured")
         continue;
     }
-        if(a==10){
+        if(e==10){
             console.log("break statement is occured")
             break;
         }
-        console.log("page no is"+" "+a);
+        console.log("page no is"+" "+e);
 }
