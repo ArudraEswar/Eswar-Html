@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    background-image: url("nature-3082832_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.container h1{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+}
+
+.container span {
+    color: #25d555;
+    font-size: 45px;
+}
