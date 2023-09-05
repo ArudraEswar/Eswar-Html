@@ -59,3 +59,14 @@ console.log(c); */
 
 
 
+const avg =(arr)=>{
+    let sum=0
+    
+    for(let i=0; i<5; i++){
+      sum += arr[i];
+    }
+    return sum
+  }
+  let array1=[1,2,3,4,5];
+  avg(array1);
+  console.log(avg(array1));
