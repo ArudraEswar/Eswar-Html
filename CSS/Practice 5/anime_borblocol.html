@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#myDIV {
+  width: 300px;
+  height: 200px;
+  background-color: lightgreen;
+  border-block-style: solid;
+  border-block-width: 10px;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-block-color: pink;}
+}
+</style>
+</head>
+<body>
+
+<h1>Animation of border-block-color</h1>
+
+<p>Gradually change the border-block-color property from black to pink, then back:<p>
+<div id="myDIV"></div>
+
+</body>
+</html>
