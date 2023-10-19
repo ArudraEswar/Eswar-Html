@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#myDIV {
+  inline-size: 70%;
+  block-size: 200px;
+  box-sizing: border-box;
+  border-inline: 1px solid black;
+  background-color: lightgreen;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-inline: 15px solid orange;}
+}
+</style>
+</head>
+<body>
+
+<h1>Animation of border-inline</h1>
+
+<p>Gradually change the border-inline property:<p>
+<div id="myDIV"></div>
+
+<p>The border-inline property is a shorthand property for all border-inline properties.</p>
+<p>See individual border-inline properties to see which is <em>animatable</em>.</p>
+
+</body>
+</html>
