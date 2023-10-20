@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h1>Change border-collapse with JavaScript</h1>
+
+<p>Click the "Try it" button to change the border-collapse property of the TABLE element:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<table id="myTABLE">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Emil</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Tobias</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Linus</td>
+    <td>2</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  document.getElementById("myTABLE").style.borderCollapse = "collapse";
+}
+</script>
+
+</body>
+</html>
