@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Music Player</h1>
+    </header>
+
+    <section id="playlist">
+        <h2>My Playlist</h2>
+        <ul>
+            <li>Zaalima</li>
+            <li>Binte Dil</li>
+            <li>Tumse Bhi Zyada</li>
+        </ul>
+    </section>
+
+    <section id="player">
+        <h2>Now Playing</h2>
+        <div id="album-art"></div>
+        <p><strong>Song:</strong>Zaalima</p>
+        <p><strong>Artist:</strong> Arijit Singh</p>
+        <audio controls>
+            <source src="song1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Music Player</p>
+    </footer>
+
+    <script src="music-player.js"></script>
+</body>
+</html>
