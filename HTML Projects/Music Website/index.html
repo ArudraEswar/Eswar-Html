@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Music Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#albums">Albums</a></li>
+                <li><a href="#genres">Genres</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Music Website!</h2>
+        <p>Discover the latest music and explore your favorite genres.</p>
+    </section>
+
+    <section id="artists">
+        <h2>Featured Artists</h2>
+        <div class="artist">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFfsqdq_mgkn8UyiznTcC8wm88MRqWh9ZF0yKU7N4QfpuyghEwj9CmihcBtBZC9u0qqYI&usqp=CAU" alt="Artist 1">
+            <h3><a href="https://en.wikipedia.org/wiki/Arijit_Singh">Arijit Singh</a></h3>
+        </div>
+        <div class="artist">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQenceBLVEGbcOM3-DdHnJZ1cQs-goZ9DKcs_P2mpwiD7Yq35ug" alt="Artist 2" width="20%">
+            <h3><a href="https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8B%E0%A4%A8%E0%A5%82_%E0%A4%A8%E0%A4%BF%E0%A4%97%E0%A4%AE">Sonu Nigam</a></h3>
+        </div>
+
+        <div class="artist">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8JE6WblIyHLrTnUFBRhYcy4LfIkVHhvq1CNRErv0ZXozW1n6v" alt="Artist 3" width="20%">
+            <h3><a href="https://en.wikipedia.org/wiki/Shreya_Ghoshal">Shreya Ghoshal</a></h3>
+        </div>
+
+        <div class="artist">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrFZm0zAXSDriJeuQ6F-F3jZ5z-SpX9Ac7fG_CYG1hQfTVuVzp" alt="Artist 4" width="20%">
+            <h3><a href="https://en.wikipedia.org/wiki/Lata_Mangeshkar">Lata Mangeshkar</a></h3>
+        </div>
+        
+    </section>
+
+    <section id="albums">
+        <h2>Top Albums</h2>
+        <div class="album">
+            <img src="Screenshot 2023-12-13 123926.png" alt="Arijit Singh" width="50%">
+            <h3> <a href="https://youtu.be/8-E1LbChJ88?si=wcxcCTU6NgHvNrNj">Album Arijit</a></h3>
+        </div>
+        <div class="album">
+            <img src="Screenshot 2023-12-13 124313.png" alt="Album 2" width="50%">
+            <h3><a href="https://youtu.be/sg5iiZoD3I0?si=9qAyjxhLYPUW4_gX">Album Sonu Nigam</a></h3>
+        </div>
+        <div class="album">
+            <img src="Screenshot 2023-12-13 124511.png" alt="Album 3" width="50%">
+            <h3><a href="https://youtu.be/3G1e5Cv_DCY?si=NjAS0dGjT9aDnoeW">Album Shreya Ghoshal</a></h3>
+        </div>
+        <div class="album">
+            <img src="Screenshot 2023-12-13 124550.png" alt="Album 4" width="50%">
+            <h3><a href="https://youtu.be/aS_NfWJzPN8?si=WddRTyi1lNIowL81">Album Latha Mangeshkar</a></h3>
+        </div>
+        
+    </section>
+
+    <section id="genres">
+        <h2>Genres</h2>
+        <ul>
+            <li><a href="https://youtu.be/SpjCrTHkzCA?si=5GWjF3WZt9XfzIB_">Classical Hits</a></li>
+            <li><a href="https://youtu.be/sCIiVN0zIGE?si=h87LhcQe8kgQlX8v">Old Classics</a></li>
+            <li><a href="https://youtu.be/UPkMkIOzej8?si=GB-BJSb0aqxzQLOF">Mood Boosters</a></li>
+            <li><a href="https://youtu.be/9C2WeoV5RhY?si=kgwvcPn-ZHohplLi">Chill</a></li>
+            <li><a href="https://youtu.be/FskL-2jrgF0?si=xK3W6XOCuiFxIDm7">Sad Songs</a></li>
+            
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Music Website</p>
+    </footer>
+</body>
+</html>
