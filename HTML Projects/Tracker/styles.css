@@ -1,0 +1,86 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Main title styling */
+h1 {
+    font-size: 1.5em;
+}
+
+/* Section styling */
+section {
+    margin: 20px 0;
+}
+
+/* Expenses section styling */
+#expenses {
+    border-bottom: 1px solid #ccc;
+}
+
+#expenses h2 {
+    color: #333;
+}
+
+#expenses ul {
+    list-style: none;
+    padding: 0;
+}
+
+#expenses li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Add Expense section styling */
+#add-expense label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#add-expense input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#add-expense-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #add-expense input {
+        width: auto;
+    }
+}
