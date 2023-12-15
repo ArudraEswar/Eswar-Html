@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .parallax-container {
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            position: relative;
+        }
+
+        .parallax-section {
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .section1 {
+            background-image: url("pexels-alex-andrews-821718.jpg"); 
+        }
+
+        .section2 {
+            background-image: url("pexels-luiz-woellner-fotografia-16756656.jpg"); 
+        }
+
+        .section3 {
+            background-image: url("pexels-jan-van-bizar-18011251.jpg"); 
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+        }
+
+        .content h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="parallax-container">
+        <div class="parallax-section section1">
+            <div class="content">
+                <h1>MOON</h1>
+                <p>Our moon, Earth's sole satellite, hangs about 238,000 miles away, influencing tides, stabilizing our climate, and dazzling us with its ever-changing phases. It's a rocky world, scarred by ancient impacts, with a mysterious dark side we're still exploring. Humans have even left their footprints there!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax-section section2">
+            <div class="content">
+                <h1>DUCK</h1>
+                <p>The most common meaning is a type of waterfowl. Ducks are small to medium-sized birds with webbed feet, short necks, and broad bills. They come in a variety of colors and patterns, and are found all over the world. Ducks are popular as pets and game birds, and their meat and eggs are eaten in many cultures.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax-section section3">
+            <div class="content">
+                <h1>BEACH & HORSES</h1>
+                <p>Horses thunder along the wet sand, manes flying against the salty breeze. Waves crash, echoing their gallop, as sun glints off their powerful muscles. Freedom reigns in this wild dance of beach and beast.</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
