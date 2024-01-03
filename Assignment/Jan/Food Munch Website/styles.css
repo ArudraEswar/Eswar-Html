@@ -52,14 +52,6 @@ h1, h2 {
     color: #333;
 }
 
-/* Style the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-}
-
 /* Add this to your existing styles.css file */
 
 .menu-item {
