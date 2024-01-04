@@ -1,0 +1,122 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parallax {
+    background-image: url("pexels-stein-egil-liland-3408744.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .parallax2 {
+    background-image: url("pexels-eberhard-grossgasteiger-707344.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+
+  .parallax3 {
+    background-image: url("pexels-emre-can-acer-2189696.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+
+  .parallax-section {
+    background-image: url("pexels-frans-van-heerden-624015.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .parallax-section .parallax-inner {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .parallax-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .parallax-section p {
+    font-size: 1.5em;
+    line-height: 1.6;
+  }
+  
+  
+  .content {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .services {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .service-item {
+    margin-bottom: 30px;
+  }
+  
+  .service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  
