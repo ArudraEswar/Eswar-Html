@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Onclick Events & Rock Paper and Scissors</h1>
+
+    <button onclick="
+    var result= '';
+    var randomNumber= Math.random();
+    
+    if(randomNumber>0 && randomNumber<=0.33){
+        result= 'rock';
+    } else if(randomNumber>0.33 && randomNumber<=0.66){
+        result='paper';
+    } else if(randomNumber>0.66 && randomNumber<=0.99){
+        result='scissor';
+    }
+    
+    if(result==='rock'){
+        alert('Tie')
+    }else if (result==='paper'){
+        alert('You Lose')
+    }else if(result==='scissor'){
+        alert('You Win')
+    }
+
+    console.log(result);
+    
+    
+    
+
+    ">Rock</button>
+    
+    <button onclick="var result= '';
+    var randomNumber= Math.random();
+    
+    if(randomNumber>0 && randomNumber<=0.33){
+        result= 'rock';
+    } else if(randomNumber>0.33 && randomNumber<=0.66){
+        result='paper';
+    } else if(randomNumber>0.66 && randomNumber<=0.99){
+        result='scissor';
+    }
+    
+    if(result==='rock'){
+        alert('You Lose')
+    }else if (result==='paper'){
+        alert('Tie')
+    }else if(result==='scissor'){
+        alert('You Win')
+    }
+
+
+    console.log(result);
+    ">Paper</button>
+    
+    <button onclick="var result= '';
+    var randomNumber= Math.random();
+    
+    if(randomNumber>0 && randomNumber<=0.33){
+        result= 'rock';
+    } else if(randomNumber>0.33 && randomNumber<=0.66){
+        result='paper';
+    } else if(randomNumber>0.66 && randomNumber<=0.99){
+        result='scissor';
+    }
+    
+    if(result==='rock'){
+        alert('You Win')
+    }else if (result==='paper'){
+        alert('You Lose')
+    }else if(result==='scissor'){
+        alert('Tie')
+    }
+
+
+    console.log(result);
+    ">Scissors</button>
+</body>
+</html>
