@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS */
+        .button-8 {
+          background-color: #e1ecf4;
+          border-radius: 3px;
+          border: 1px solid #7aa7c7;
+          box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+          box-sizing: border-box;
+          color: #39739d;
+          cursor: pointer;
+          display: inline-block;
+          font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 1.15385;
+          margin: 0;
+          outline: none;
+          padding: 8px .8em;
+          position: relative;
+          text-align: center;
+          text-decoration: none;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+          vertical-align: baseline;
+          white-space: nowrap;
+        }
+        
+        .button-8:hover,
+        .button-8:focus {
+          background-color: #b3d3ea;
+          color: #2c5777;
+        }
+        
+        .button-8:focus {
+          box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+        }
+        
+        .button-8:active {
+          background-color: #a0c7e4;
+          box-shadow: none;
+          color: #2c5777;
+        }
+    </style>
+</head>
+<body>
+     <h1>Name: Eswar Khanna</h1>
+     <h2>Age: 30</h2>
+     <h2>Hobbies: Reading Books, Writing Stories, Watching Movies, Desiging</h2>
+     <h2>Place: Kurnool</h2>
+     <hr>
+     <h1>Reading List (TBR):</h1>
+     <h3>Atomic Habits: <span style="font-size: small;">250</span></h3>
+     <h3>The Psychology Of Money: <span style="font-size: small;">200</span></h3>
+     <h3>Sapiens: <span style="font-size: small;">300</span></h3>
+     <h3>The Guest List: <span style="font-size: small;">499</span></h3>
+     <h3>The Maid: <span style="font-size: small;">599</span></h3>
+     <h3>Five Survive: <span style="font-size: small;">600</span></h3>
+     <h3>An Uncommon Love: <span style="font-size: small;">499</span></h3>
+     <h3>Jojo Mayes: <span style="font-size: small;">799</span></h3>
+     <h3>Summer Reading: <span style="font-size: small;">599</span></h3>
+     <button class="button-8" role="button">Submit</button>
+        
+
+
+
+    <script>
+
+        var name="Eswar Khanna";
+        var age= 30;
+        var hobbies= "Reading Books";
+        var place= "Kurnool";
+        console.log(name);
+        console.log(age);
+        console.log(hobbies);
+        console.log(place);
+
+        var atomicHabits= 250;
+        var thePsychologyofmoney = 200;
+        var sapiens= 300;
+        var total= atomicHabits + thePsychologyofmoney + sapiens;
+
+        console.log(total);
+
+        var theGuestlist= 499;
+        var theMaid= 599;
+        var total1= theGuestlist*2 + theMaid*3;
+
+        console.log(total1);
+
+        var fiveSurvive= 600;
+        var anUncommonLove = 499;
+        var total2 = fiveSurvive - anUncommonLove;
+
+        console.log(total2);
+
+        var jojoMayes= 799;
+        var summerReading= 599;
+        var total3 = jojoMayes/2 + summerReading/2;
+
+        console.log(total3);
+    </script>
+</body>
+</html>
