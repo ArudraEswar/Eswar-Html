@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto Background Color Change</title>
+<style>
+  body {
+    transition: background-color 1s ease;
+  }
+  .name{
+    padding-top: 4%;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<h1 class="name">RAMYA THATIPARTI</h1>
+<h1 class="name">ESWAR KHANNA ENUKONDA</h1>
+<h1 class="name">DIVYA BASANI</h1>
+<h1 class="name">NAVEEN NANI</h1>
+<h1 class="name">MANEESH MAIKE</h1>
+<script>
+  // Function to generate a random color
+  function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 8; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+  // Function to change the background color every 3 seconds
+  function changeBackgroundColor() {
+    var color = getRandomColor();
+    document.body.style.backgroundColor = color;
+  }
+
+  // Change the background color initially
+  changeBackgroundColor();
+
+  // Set interval to change the background color every 3 seconds
+  setInterval(changeBackgroundColor, 3000);
+</script>
+
+</body>
+</html>
